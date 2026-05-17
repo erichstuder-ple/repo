@@ -5,3 +5,6 @@ RUN pip install --no-cache-dir \
     sphinx-autobuild \
     sphinx-rtd-theme \
     sphinx-needs
+
+RUN pip install --no-cache-dir \
+    platformio

@@ -1,4 +1,19 @@
 {
     "name": "devcontainer",
-    "dockerFile": "Dockerfile"
+    "dockerFile": "Dockerfile",
+
+    // port for platformio home server
+    "forwardPorts": [8008],
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "platformio.platformio-ide"
+            ],
+            "settings": {
+                "platformio-ide.pioHomeServerHttpPort": 8008,
+                "platformio-ide.useBuiltinPIOCore": false
+            }
+        }
+    }
 }
