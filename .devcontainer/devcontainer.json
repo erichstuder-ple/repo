@@ -8,6 +8,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "ybaumes.highlight-trailing-white-spaces",
                 "platformio.platformio-ide"
             ],
             "settings": {
